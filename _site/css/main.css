@@ -1,0 +1,143 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section,
+summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+strong, b {
+  font-weight: bold;
+}
+em, i {
+  font-style: italic;
+}
+a img {
+  border: none;
+}
+/* END RESET*/
+
+/* GLOBAL STYLES */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content {
+  flex: 1 1 auto;
+}
+h2 {
+  font-size: 2em;
+}
+
+/* HEADER STYLES */
+.header {
+  background-color: #000;
+  width: 100%;
+}
+.header-logo {
+  height: 10vh;
+}
+.header-nav {
+  float: right;
+}
+.header-nav li {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0 1em;
+}
+.header-nav li ~ li {
+  border-left: solid #aaa;
+}
+.header-nav li a {
+  color: #aaa;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+.header-nav li a:hover {
+  color: #e88c0b;
+}
+
+/* FOOTER STYLES */
+.footer {
+  background-color: #000;
+  text-align: center;
+  padding: 1em;
+}
+.footer-logo {
+  height: 10vh;
+}
+.footer-nav li {
+  display: inline-block;
+  margin: 1em 0;
+  padding: 0 1em;
+}
+.footer-nav li ~li {
+  border-left: solid #aaa;
+}
+.footer-nav li a {
+  color: #aaa;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+.footer h2 {
+  color: #fff;
+  margin: 1rem auto;
+}
+
+/* HERO STYLES */
+.hero {
+  background-image: url(http://www.placecage.com/200/300);
+  height: 90vh;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 10vh;
+}
+.hero h2 {
+  font-size: 5vh;
+}
+.hero-text {
+  padding-top: 10vh;
+}
+
+/* SOCIAL LINK STYLES */
+.social-links li {
+  background-color: #aaa;
+  border-radius: 2em;
+  display: inline-block;
+  padding: 1em;
+}
+.social-links li a {
+  color: #000;
+  text-decoration: none;
+}
