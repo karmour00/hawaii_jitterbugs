@@ -2,7 +2,7 @@
 <div class="announcements text-section">
   <h2>Announcements</h2>
   {% for announcement in site.announcements %}
-    <h3><a href="{{ announcement.url }}">{{ announcement.title }}</a></h3>
+    <h3><a href="{{ site.baseurl }}{{ announcement.url }}">{{ announcement.title }}</a></h3>
     {{ announcement.content }}
   {% endfor %}
 </div>
