@@ -2,7 +2,7 @@
 <div class="specials text-section">
   <h2>Special Events</h2>
   {% for special in site.specials %}
-    <h3><a href="{{ baseurl }}{{ special.url }}">{{ special.title }}</a></h3>
+    <h3><a href="{{ site.baseurl }}{{ special.url }}">{{ special.title }}</a></h3>
     {{ special.content }}
   {% endfor %}
 </div>
