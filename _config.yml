@@ -1,0 +1,8 @@
+baseurl: /hawaii_jitterbugs
+collections:
+  announcements:
+    output: true
+  weeklys:
+    output: true
+  specials:
+    output: true

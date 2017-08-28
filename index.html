@@ -5,15 +5,21 @@ layout: default
   <!-- hero -->
   {% include hero.html %}
 
-  <div class="home-text">
-    <!-- heading -->
-    <h2>Welcome to Hawaii Jitterbugs!</h2>
+  <div class="text">
 
     <!-- welcome message -->
-    <p>
-      We are a non-profit organization dedicated to preserving and promoting Lindy Hop & Swing Dancing in Honolulu, Hawaii.
-    </p>
-    <!-- weekly dances -->
-    <!-- upcoming events -->
+    <div class="welcome text-section">
+      <h1>Welcome to Hawaii Jitterbugs!</h1>
+      <p>
+        We are a non-profit organization dedicated to preserving and promoting Lindy Hop & Swing Dancing in Honolulu, Hawaii.
+      </p>
+    </div>
+
+    {% include announcements.html %}
+
+    {% include weeklys.html %}
+
+    {% include specials.html %}
   </div>
+
 </div>

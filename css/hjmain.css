@@ -47,6 +47,10 @@ a img {
 /* END RESET*/
 
 /* GLOBAL STYLES */
+html {
+  box-shadow: 0 0 0 10px #000 inset;
+  padding: 0 10px;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -56,8 +60,34 @@ body {
   background-color: #aaa;
   flex: 1 1 auto;
 }
+h1 {
+  font-size: 2.5em;
+}
 h2 {
   font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+}
+.text {
+  max-width: 900px;
+  margin: 1em auto;
+}
+.text-section {
+  margin: 2em 2em;
+}
+.text-section a {
+  color: #000;
+  text-decoration: underline;
+}
+.text-section a:hover {
+  color: #fff;
+}
+.text-section h2 {
+  margin-bottom: 0.5rem;
+}
+ul {
+  list-style-type: none;
 }
 
 /* HEADER STYLES */
@@ -155,7 +185,5 @@ h2 {
 }
 
 /* HOMEPAGE STYLES */
-.home-text {
-  max-width: 800px;
-  margin: 1em auto;
-}
+/* ABOUT PAGE STYLES */
+/* EVENTS PAGE STYLES */

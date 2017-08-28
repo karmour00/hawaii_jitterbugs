@@ -1,0 +1,8 @@
+<!-- weekly events -->
+<div class="weeklys text-section">
+  <h2>Weekly Events</h2>
+  {% for weekly in site.weeklys %}
+    <h3><a href="{{ weekly.url }}">{{ weekly.title }}</a></h3>
+    {{ weekly.content }}
+  {% endfor %}
+</div>
