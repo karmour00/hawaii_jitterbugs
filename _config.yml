@@ -1,4 +1,3 @@
-baseurl: /hawaii_jitterbugs
 collections:
   announcements:
     output: true
